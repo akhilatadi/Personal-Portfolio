@@ -1,0 +1,144 @@
+.books_container{
+    min-height: 100vh;
+  padding: 5rem calc((100vw - 1300px) / 2);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.6)
+  ),url("../../../images/coffee.PNG");
+  color: white;
+  background-attachment:fixed;
+    background-position: center;
+  background-size: cover;
+  margin-top: 20vh;
+}
+
+.books_heading{
+    font-size: clamp(2rem, 2.5rem, 3rem);
+  text-align: center;
+margin-bottom:2rem;
+height: 5vh;
+
+
+}
+
+.header_wrapper{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.search_wrapper{
+height:7vh;
+width:100%;
+
+flex-direction: column;
+place-items: center;
+display:flex;
+justify-content: center;
+
+
+}
+.searchBar{
+    height:35px;
+    width:200px;
+    border-radius: 4px;
+    box-shadow: 2px solid;
+}
+
+.books_category{
+ margin:2rem 5rem;
+  
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.category_btn{
+    font-size: 1.3rem;
+  padding:15px;
+    height:30px;
+    width:auto;
+    border: solid 3px rgba(59, 155, 179, 0.993);
+    color: white;
+    transition: 0.2s ease-in-out;
+    margin:5px 7px;
+    border-radius: 5px;
+    background-color: rgba(12, 12, 12, 0.459);
+ display:flex;
+    place-items:center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.category_btn:hover{
+    background-color: rgba(59, 155, 179, 0.993);
+    transform: scale(1.1);
+}
+
+.books_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    place-items:center;
+    
+}
+.books_card {
+   
+    margin: 0 2rem;
+    line-height: 1.5;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  
+  }
+
+  .books_image {
+    height: 200px;
+    box-shadow: 5px 3px rgba(148, 194, 194, 0.993);
+    width: auto;
+  }
+
+  .books_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    text-align: center;
+   
+  }
+  
+  .books_title {
+font-size:1.3rem;
+  }
+
+ .books_author{
+font-size:1rem;
+ }
+  
+.books_btn {
+    font-size: 1rem;
+    padding: 0.6rem 1.5rem;
+    border: solid 5px rgba(59, 155, 179, 0.993);
+    color: rgba(238, 245, 247, 0.993);
+    transition: 0.2s ease-in-out;
+    margin-bottom:30px;
+    border-radius: 5px;
+    background-color: rgba(71, 65, 65, 0.473);
+  }
+ 
+  
+  .active,.books_btn:hover{
+      background-color:rgba(59, 155, 179, 0.993) ;
+      transition: 0.2s ease-out;
+      cursor: pointer;
+  }

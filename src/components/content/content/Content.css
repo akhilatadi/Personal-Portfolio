@@ -1,0 +1,92 @@
+.content_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+
+  margin-top: 20vh;
+  height: 100vh;
+}
+
+
+.book_btn,.french_btn,.painting_btn,.podcast_btn {
+  
+  font-size: 1.4rem;
+  padding: 1rem 4rem;
+  border: none;
+  align-self: center;
+  background: rgba(15, 15, 15, 0.616);
+  color: white;
+  transition: 0.2s ease-out;
+  border: solid 5px rgba(59, 155, 179, 0.993);
+}
+
+.book_btn:hover,.french_btn:hover,.painting_btn:hover,.podcast_btn:hover{
+    background: rgba(59, 155, 179, 0.993);   
+}
+
+.book_section{
+    background:url('../../../images/books.jpg');
+      
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  height: 25vh;
+  width: 100%;
+  opacity:80%;
+  background-position: center;
+  background-size: cover;
+
+  background-color: white;
+}
+.podcast_section
+{
+    background: url('../../../images/podcast.jpg');
+      
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  height: 25vh;
+  width: 100%;
+  opacity:80%;
+  background-position: center;
+  background-size: cover;
+
+  background-color: white;
+}
+
+.painting_section
+{
+    background: url('../../../images/painting.jpg');
+      
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  height: 25vh;
+  width: 100%;
+  opacity:80%;
+  background-position: center;
+  background-size: cover;
+ 
+  background-color: white;
+}
+
+.french_section
+{
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.3),rgba(0,0,0,0.2)),url('../../../images/french.jpg');
+      
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  height: 25vh;
+  width: 100%;
+opacity:80%;
+  background-position: center;
+  background-size: cover;
+
+  background-color: white;
+}

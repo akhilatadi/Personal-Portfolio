@@ -1,0 +1,213 @@
+.aboutContainer{
+    background: linear-gradient(to top,rgba(0, 0,0, 0.8),rgba(0,0,0,0.6)),url('../../images/bridge.jpg');
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    color:white;
+    text-align:center;
+    padding:0 1rem;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: white; 
+    
+ 
+    place-items: center;
+    
+    }
+    .aboutContainer h2{
+        font-size: clamp(1rem, 2.8rem, 4rem);
+      margin:5rem 1.5rem 1.5rem 1.5rem;
+      margin-top: 5rem;
+    }
+    
+    .aboutContainer p{
+        font-size: clamp(0.7rem, 1.2rem, 1.3rem);
+        margin-bottom:1rem;
+      margin-left: 20px;
+       width:450px;
+       text-align:left;
+       font-family: "Open Sans", sans-serif;
+       
+ 
+    }
+    
+    .aboutContent{
+    height:calc(100vh- 80px);
+    max-height: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+    
+    }
+    .textContent{
+    padding:20px 10px 10px 10px;
+    
+    background: #3a97cc4d;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 490px;
+    flex-wrap: wrap;
+    width:100%;
+    animation: text_up 1.2s ease   ;
+    }
+    
+    .aboutBtn{
+       
+    font-size:1rem;
+    padding:1rem 2.3rem;
+    border:none;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    align-self: center;
+    background:transparent;
+    color:white;
+    transition: 0.2s ease-out;
+    border:solid 5px rgba(59, 155, 179, 0.993);
+    }
+    
+    .aboutBtn:hover{
+        background-color: rgba(59, 155, 179, 0.993);
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    
+.btn_wrapper{
+    flex:0.9;
+
+  
+    display: flex;
+    justify-content: center;
+    margin:60px;
+    padding-left:50px;
+    animation: image_up 1.2s ease   ;
+    
+
+}
+
+    .aboutImg{
+        animation: image_up 1.2s ease   ;
+      
+        height:250px;
+        box-shadow: 3px 4px rgb(101, 107, 107);
+        background-position: center;
+        background-size: cover;
+        
+    }
+
+    .btnCont{
+        display: flex;
+        flex:1;
+       
+        justify-content: center;
+        place-content: center;
+        
+height:100%;
+width:100%;
+
+
+    }
+    .ghost_fun{
+        opacity:80%;
+       cursor: pointer;
+       flex:0.1;
+margin-top:140px;
+transition: all 1s ease-in-out;
+font-size:1.3rem;
+
+    }
+    .ghost_fun:hover{
+        font-size: 1.6rem;;
+      transform: scale(1.1);
+        opacity:90%;
+        
+    }
+
+
+    
+@keyframes text_up{
+    0% {
+    
+     transform: translateX(-200px);
+     opacity:0%;
+    }
+    
+
+     100% {
+     transform: translateX(0);
+}}
+
+@keyframes image_up{
+    0% {
+    
+     transform: translateY(-100px);
+     opacity:0%;
+    }
+    
+
+     100% {
+     transform: translateY(0);
+}}
+    
+    
+    @media(max-width:780px){
+        .aboutContent{
+            flex-direction: column-reverse;
+           
+            
+        }
+        .aboutContainer p{
+            font-size: clamp(0.7rem, 1.2rem, 1.3rem);
+            margin-bottom:0.8rem;
+          margin-left: 20px;
+           width:300px;
+           text-align:left;
+          
+        }
+    
+        .textContent{
+            padding:10px;
+            background: #3a97cc4d;
+            display:flex;
+            
+            justify-content: center;
+           
+          
+            width:100%;
+            }
+            .aboutImg{
+    
+
+                height:180px;
+                box-shadow: 5p 5px rgb(66, 181, 185);
+                background-position: center;
+                background-size: cover;
+                
+            }
+
+            .btnCont{
+                display: flex;
+              flex-direction: row;
+               flex:1;
+                justify-content: center;
+                place-content: center;
+                height:100%;
+        width:100%;
+        margin-top: 20px;
+        
+            }
+            .btn_wrapper{
+               
+            flex:0.9;
+              
+                display: flex;
+                justify-content: center;
+             
+            
+            }  
+    }
+
+    

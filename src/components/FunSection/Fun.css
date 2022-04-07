@@ -1,0 +1,76 @@
+.funContainer{
+    display: flex;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.2)
+    ), url("../../images/trees.jpg");
+    height: 85vh;
+  padding-top: 20px;
+  
+  background-position-x: top  ;
+    
+   
+    background-size:cover;
+  background-repeat: no-repeat;
+    background-position:  center bottom  ;
+ 
+ 
+
+}
+
+.fun_wrapper{
+    flex:1;
+   
+    justify-content: flex-end;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    cursor:pointer;
+
+
+}
+.fun_arrow{
+    flex:0.1;
+   display: flex;
+   flex-direction: column;
+    color:white;
+    font-size:1.7rem;
+    justify-content: center;
+    place-items: center;
+}
+
+.fun_content{
+    flex:0.8;
+    color:white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    place-content: center;
+    margin:20px;
+    align-items: center;
+}
+
+h4{
+    font-size: 1rem;
+    flex-wrap: wrap;
+   
+   
+}
+
+.fun_desc{
+ color:rgb(35, 66, 80);
+  width:75%;
+font-size: 1.3rem;
+margin:0.7rem ;
+font-family: 'Kaushan Script', cursive;
+background-color: rgba(236, 241, 241, 0.61);
+border-radius: 5px;
+padding:1rem;
+
+}
+
+.fun_scroll{
+    font-family: 'Kaushan Script', cursive;
+}

@@ -1,0 +1,96 @@
+.viewContainer{
+    background: linear-gradient(to top,rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../../images/hero.jpeg');
+   /* min-height:100vh;
+    max-height: 1200vh;
+    display:flex;
+    flex-wrap:wrap;
+   background-color: rgba(207, 62, 111, 0.445);
+   padding-top:7em;
+   flex-direction: column;
+   place-items: center; */
+   height:max-content;
+   display:flex;
+   min-height: 100vh;
+ 
+   justify-content: center;
+   color:white;
+   text-align:center;
+   padding-top:7em;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   z-index:-1;
+
+}
+
+.view_info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: slide_up 1.3s ease;
+}
+
+
+.view_image{
+    height:60%;
+    box-shadow:5px 3px rgba(22, 27, 29, 0.815);
+    width:60%;
+    animation: slide_up 1.2s ease   ;
+ 
+}
+
+@keyframes slide_up{
+    0% {
+     transform: translateY(-100px);
+     opacity:0%;
+    }
+    
+
+     100% {
+     transform: translateY(0);
+}}
+ 
+.propTitle{
+    font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: 'Kaushan Script', cursive;
+  animation: slide_up 1.1s ease ;
+}
+
+.propDesc{
+    margin-top:20px;
+    font-size: 1.3rem;
+    max-width:500px;
+
+}
+.btn_wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+
+button{
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+    border: solid 5px rgba(59, 155, 179, 0.993);
+    color: white;
+    transition: 0.2s ease-in-out;
+  margin-right:20px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+button:hover{
+    background-color: rgba(59, 155, 179, 0.993);
+    cursor: pointer;
+    transform: scale(1.05);
+    color:white;
+}
+.view_info h1{
+margin-top:1.3rem;
+}
+

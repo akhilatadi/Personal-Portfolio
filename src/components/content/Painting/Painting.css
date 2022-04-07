@@ -1,0 +1,238 @@
+.artContainer{
+    display:flex;
+   margin-top:10vh;
+    height:240vh;
+    width:100%;
+    flex-direction: column;
+   
+}
+
+.art_desc{
+ flex:0.12;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:#064663;
+ 
+}
+
+.art_text{
+  
+    margin:1rem 5rem ;
+    text-align:center;
+    font-size: 1.5rem;
+    font-weight:500;
+    color:#064663;
+    max-width:850px;
+}
+
+.quotes_container{
+    background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.4)
+  ),url("../../../images/quotes.jpg");
+ flex:0.38;
+  
+    display: flex;
+    flex-direction:row;
+    background-attachment:fixed;
+    background-position: center;
+  background-size: cover;
+
+    
+}
+
+
+.carousel_left{
+    flex:0.15;
+    display:flex;
+ justify-content: center;
+ align-items: center;
+ font-size:2.5rem;
+ color:white;
+ cursor: pointer;
+}
+
+.carousel_right{
+    flex:0.15;
+    display:flex;
+ justify-content: center;
+ align-items: center;
+ font-size:2.5rem;
+ color:white;
+ cursor: pointer;
+}
+
+
+
+.quote_desc{
+    flex:0.7;
+   padding:2rem;
+    display:flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    flex-wrap:wrap;
+ 
+}
+
+.quote_title{
+   flex-wrap: wrap;
+    flex:0.5;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+ 
+}
+.quote_comment{
+    flex:0.5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote_title p{
+    background-color:rgba(19, 18, 18, 0.568);
+max-width: 600px;
+    color:white;
+    border-radius:7px;
+    padding:2rem;
+    box-shadow: 0 7px 10px rgb(0 0 0 / 0.3);
+ font-size:1.4rem;
+
+}
+
+.quote_comment p{
+    background-color:rgba(26, 24, 24, 0.534);
+    color:white;
+ max-width:600px;
+    border-radius:7px;
+    padding:2rem;
+    font-size:1.4rem;
+    box-shadow: 0 7px 10px rgb(0 0 0 / 0.3);
+}
+
+
+.quote_comment  h4{
+font-size:1.4rem;
+}
+
+.paradox_desc{
+    flex:0.12;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  
+   
+}
+
+.paradox_text{
+    margin:1rem 5rem ;
+    text-align:center;
+    font-size: 1.5rem;
+    font-weight:500;  
+    max-width:850px; 
+    color:#064663;
+}
+
+.paradox_container{
+    background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.6)
+  ),url("../../../images/paradox.jpg");
+ flex:0.38;
+  
+    display: flex;
+    flex-direction:column;
+    background-attachment:fixed;
+    background-position: center;
+  background-size: cover;
+  color:white;
+  justify-content: center;
+  align-items:center
+
+ 
+}
+.paradox_wrapper{
+    background-color:rgba(177, 172, 173, 0.616);
+    margin:3rem;
+    padding:1rem;
+    border-radius:10px;
+    max-width:700px;
+    
+
+
+}
+
+
+.paradox_title{
+   
+    justify-content: center;
+align-items: center;
+    display:flex;
+    font-size: 1rem;
+    margin:0.5rem;
+
+}
+
+
+.paradox_desc{
+    display:flex;
+    justify-content: center;
+    text-align: left;
+   padding: 5px  10px 0 10px;
+  
+   font-size:1.4rem;
+  
+}
+
+.paradox_btn{
+
+justify-content: center;
+    display:flex;
+}
+
+
+@media(max-width:500px){
+
+  
+    .quote_title p{
+        background-color:rgba(19, 18, 18, 0.568);
+    width:230px;
+    font-size:1rem;
+        color:white;
+        border-radius:7px;
+        padding:2rem;
+        box-shadow: 0 7px 10px rgb(0 0 0 / 0.3);
+     
+    
+    }
+    
+    .quote_comment p{
+        background-color:rgba(26, 24, 24, 0.534);
+        color:white;
+        width:230px;
+        font-size:1rem;
+        border-radius:7px;
+        padding:2rem;
+        box-shadow: 0 7px 10px rgb(0 0 0 / 0.3);
+    }
+    
+    .paradox_wrapper{
+        background-color:rgba(177, 172, 173, 0.616);
+        margin:2rem;
+        padding:1rem;
+        border-radius:10px;
+        max-width:700px;
+        
+    
+    
+    }
+
+}
